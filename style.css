@@ -1,0 +1,68 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-parent {
+    border: 2px solid #f00;
+    display: flex;
+    margin: 97px 312.5px;
+}
+
+.flex-child {
+    /* border: 2px solid #00f; */
+}
+
+.flex-child:nth-child(1) {
+    border: 2px solid saddlebrown;
+    width: 50%;
+}
+
+.flex-child:nth-child(2) {
+    border: 2px solid green;
+    width: 50%;
+}
+
+.flex-parent2 {
+    border: 2px solid rebeccapurple;
+    margin: 0 312.5px;
+    display: flex;
+    height: 200px;
+    justify-content: space-between;
+    gap: 22px;
+}
+
+.flex-child2:nth-child(1) {
+    border: 2px solid saddlebrown;
+    width: 33.33%;
+}
+
+.flex-child2:nth-child(2) {
+    border: 2px solid palevioletred;
+    width: 33.33%;
+
+}
+
+.flex-child2:nth-child(3) {
+    border: 2px solid purple;
+    width: 33.33%;
+
+}
+
+
+
+
+/* .box1 {
+    border: 1px solid #f0e;
+    width: 400px;
+    height: 400px;
+    padding: 50px;
+}
+
+.box2 {
+    border: 1px solid #f04;
+    width: 400px;
+    height: 400px;
+} */
