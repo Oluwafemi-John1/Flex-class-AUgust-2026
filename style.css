@@ -5,6 +5,14 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #FFFFFF;
+}
+
+img {
+    max-width: 100%;
+}
+
 .flex-parent {
     border: 2px solid #f00;
     display: flex;
@@ -26,7 +34,7 @@
 }
 
 .flex-parent2 {
-    border: 2px solid rebeccapurple;
+    /* border: 2px solid rebeccapurple; */
     margin: 0 312.5px;
     display: flex;
     height: 200px;
@@ -34,19 +42,25 @@
     gap: 22px;
 }
 
+.flex-child2 {
+    background-color: #F5F6F7;
+    border-radius: 20px;
+    padding: 30px 30px;
+}
+
 .flex-child2:nth-child(1) {
-    border: 2px solid saddlebrown;
+    /* border: 2px solid saddlebrown; */
     width: 33.33%;
 }
 
 .flex-child2:nth-child(2) {
-    border: 2px solid palevioletred;
+    /* border: 2px solid palevioletred; */
     width: 33.33%;
 
 }
 
 .flex-child2:nth-child(3) {
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
     width: 33.33%;
 
 }
