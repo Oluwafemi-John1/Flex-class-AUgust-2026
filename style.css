@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
 /* CSS Reset */
 * {
     margin: 0;
@@ -7,6 +9,7 @@
 
 body {
     background-color: #FFFFFF;
+    font-family: "Google Sans", sans-serif;
 }
 
 img {
@@ -37,7 +40,6 @@ img {
     /* border: 2px solid rebeccapurple; */
     margin: 0 312.5px;
     display: flex;
-    height: 200px;
     justify-content: space-between;
     gap: 22px;
 }
@@ -46,6 +48,7 @@ img {
     background-color: #F5F6F7;
     border-radius: 20px;
     padding: 30px 30px;
+    /* border: 2px solid red; */
 }
 
 .flex-child2:nth-child(1) {
@@ -65,7 +68,47 @@ img {
 
 }
 
+.flex-child2 a:nth-child(1) {
+    /* border: 2px solid brown; */
+    display: inline-block;
+}
 
+.flex-child2 a:nth-child(2) {
+    /* border: 2px solid palevioletred; */
+    font-size: 2rem;
+    color: #202124;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+    margin: 40px 0;
+}
+
+.flex-child2 a:nth-child(2):hover {
+    text-decoration: underline;
+}
+
+.flex-child2 p {
+    color: #202124;
+    font-weight: 400;
+}
+
+.flex-child2 a:last-child {
+    /* border: 2px solid red; */
+    display: block;
+    text-align: center;
+    margin: 40px 78px;
+    padding: 15px 15px;
+    background-color: #fff;
+    border-radius: 30px;
+    border: 2px solid #2E6AC2;
+    text-decoration: none;
+    color: #1A73E8;
+}
+
+.flex-child2 a:last-child:hover {
+    border: none;
+    background-color: #F5F6F7;
+}
 
 
 /* .box1 {
